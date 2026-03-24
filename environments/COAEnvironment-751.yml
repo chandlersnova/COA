@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "751"
+mappingDefinitions:
+  SRC:
+    database: CHANDLER_DB
+    schema: TEST_SOURCE
+  TARGET:
+    database: CHANDLER_DB
+    schema: TEST_COA
+name: COA Environment
+type: Environment
