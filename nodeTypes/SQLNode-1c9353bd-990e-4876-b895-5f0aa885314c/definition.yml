@@ -1,0 +1,14 @@
+fileVersion: 1
+id: 1c9353bd-990e-4876-b895-5f0aa885314c
+isDisabled: false
+metadata:
+  defaultStorageLocation: null
+  error: null
+  nodeMetadataSpec: |-
+    capitalized: SQLS
+    short: SQL
+    plural: SQLs
+    tagColor: '#1890ff'
+    inputMode: 'sql'
+name: SQL Node
+type: NodeType

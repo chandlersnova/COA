@@ -21,12 +21,10 @@ operation:
         description: SF*150,000 are populated
         name: C_CUSTKEY
         nullable: false
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -40,12 +38,10 @@ operation:
         description: ""
         name: C_NAME
         nullable: false
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -59,12 +55,10 @@ operation:
         description: ""
         name: C_ADDRESS
         nullable: false
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -78,12 +72,10 @@ operation:
         description: Foreign Key to N_NATIONKEY
         name: C_NATIONKEY
         nullable: false
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -97,12 +89,10 @@ operation:
         description: ""
         name: C_PHONE
         nullable: false
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -116,12 +106,10 @@ operation:
         description: ""
         name: C_ACCTBAL
         nullable: false
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -135,12 +123,10 @@ operation:
         description: ""
         name: C_MKTSEGMENT
         nullable: true
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
       - acceptedValues:
           strictMatch: true
           values: []
@@ -154,12 +140,10 @@ operation:
         description: ""
         name: C_COMMENT
         nullable: true
-        primaryKey: false
         sourceColumnReferences:
           - columnReferences: []
             transform: ""
         transform: ""
-        uniqueKey: false
   name: CUSTOMER
   schema: ""
   sqlType: Source
