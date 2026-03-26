@@ -1,0 +1,11 @@
+@id("83e95dfd-cf54-42a8-bfd7-efba388d3c7d")
+@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+SELECT
+     "S_SUPPKEY" AS "S_SUPPKEY",
+     "S_NAME" AS "S_NAME",
+     "S_ADDRESS" AS "S_ADDRESS",
+     "S_NATIONKEY" AS "S_NATIONKEY",
+     "S_PHONE" AS "S_PHONE",
+     "S_ACCTBAL" AS "S_ACCTBAL",
+     "S_COMMENT" AS "S_COMMENT"
+FROM {{ ref('SRC', 'SUPPLIER') }} "SUPPLIER"
