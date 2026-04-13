@@ -1,0 +1,13 @@
+fileVersion: 2
+id: 35f3d77c-09ca-40f8-9f92-7f2783134ae6
+isDisabled: false
+metadata:
+  defaultStorageLocation: null
+  error: null
+  nodeMetadataSpec: |-
+    capitalized: Node V2
+    short: nv2
+    tagColor: pink
+    plural: Node V2s
+name: Node V2
+type: NodeType

@@ -9,6 +9,6 @@ metadata:
     short: SQL
     plural: SQLs
     tagColor: '#1890ff'
-    inputMode: 'sql'
+    inputMode: sql
 name: SQL Node
 type: NodeType
