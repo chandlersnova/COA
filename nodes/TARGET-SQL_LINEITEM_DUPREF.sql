@@ -1,0 +1,7 @@
+@id("c3693ed3-dd76-4014-a728-78141c94a547")
+@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+SELECT
+     l1."L_ORDERKEY" AS "L_ORDERKEY"
+FROM {{ ref('SRC', 'LINEITEM') }} l1
+INNER JOIN {{ ref('SRC', 'LINEITEM') }} l2
+  ON l1."L_ORDERKEY" = l2."L_ORDERKEY"
