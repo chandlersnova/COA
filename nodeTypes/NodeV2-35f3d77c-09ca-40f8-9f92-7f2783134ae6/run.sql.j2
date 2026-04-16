@@ -1,0 +1,38 @@
+{%- set mat_type = node.materializationType | default('table') -%}
+{%- set strategy = config.insertStrategy | default('INSERT') -%}
+
+{%- if config.truncateBefore is defined and config.truncateBefore and mat_type != 'view' %}
+{{ stage('Truncate') }}
+TRUNCATE TABLE IF EXISTS {{ ref_no_link(node.location.name, node.name) }}
+{%- endif %}
+
+{%- if mat_type == 'view' %}
+{{ stage('Create View') }}
+CREATE OR REPLACE VIEW {{ ref_no_link(node.location.name, node.name) }}
+AS
+{% for source in sources %}
+{{ source.cteString }}
+SELECT
+    {% for col in source.columns -%}
+        {{ col.transform }} AS "{{ col.name }}"{% if not loop.last %},{% endif %}
+    {% endfor %}
+{{ source.join }}
+{% endfor %}
+
+{%- else %}
+{{ stage('Insert') }}
+INSERT INTO {{ ref_no_link(node.location.name, node.name) }}
+(
+    {% for col in columns -%}
+        "{{ col.name }}"{% if not loop.last %},{% endif %}
+    {% endfor %}
+)
+{% for source in sources %}
+{{ source.cteString }}
+SELECT
+    {% for col in source.columns -%}
+        {{ col.transform }} AS "{{ col.name }}"{% if not loop.last %},{% endif %}
+    {% endfor %}
+{{ source.join }}
+{% endfor %}
+{%- endif %}

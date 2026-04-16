@@ -6,7 +6,7 @@ metadata:
   error: null
   nodeMetadataSpec: |-
     capitalized: Node V2
-    short: nv2
+    short: NV2
     tagColor: pink
     plural: Node V2s
 name: Node V2
