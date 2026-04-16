@@ -1,10 +1,5 @@
--- Repro for Tracker #39-style parser collapse (complex multi-CTE → single column "1").
--- Usage: In Coalesce, create a new SQL node (or paste into an existing one) and replace
--- the @id line below with your node's UUID from the editor. Keep @nodeType matching your SQL Node type.
--- Refs use only nodes present in this repo: SRC LINEITEM, ORDERS, CUSTOMER, PARTSUPP, SUPPLIER.
-
-@id("00000000-0000-4000-8000-000000000001")
-@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+@id("723f3197-098d-4d68-a5ac-66042b4d8306")
+@nodeType("35f3d77c-09ca-40f8-9f92-7f2783134ae6")
 WITH time_periods AS (
     SELECT DISTINCT
         DATE_TRUNC('month', o.O_ORDERDATE) AS period_month,
