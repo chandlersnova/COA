@@ -1,5 +1,5 @@
-@id("7d44b738-a0a4-44eb-989e-eb25d82ed5b0")
-@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+@id("11251087-f9ba-4edc-b701-320040653251")
+@nodeType("SQLNodes:::707")
 SELECT
      "PS_PARTKEY" AS "PS_PARTKEY",
      "PS_SUPPKEY" AS "PS_SUPPKEY",

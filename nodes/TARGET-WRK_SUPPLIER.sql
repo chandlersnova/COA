@@ -1,5 +1,5 @@
-@id("97f6478c-af89-4db3-a7ba-8a93867d2c76")
-@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+@id("190fd761-c572-4aa3-bdea-051dd6273c0b")
+@nodeType("SQLNodes:::707")
 SELECT
      "S_SUPPKEY" AS "S_SUPPKEY",
      "S_NAME" AS "S_NAME",

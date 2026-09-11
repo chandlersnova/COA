@@ -1,0 +1,13 @@
+config:
+  entities:
+    nodeTypes:
+      "707":
+        defaultStorageLocation: null
+        isDisabled: false
+  packageVariables: ""
+fileVersion: 1
+id: "@coalesce/snowflake/devcopied-base-node-types-sql"
+name: SQLNodes
+packageID: "@coalesce/snowflake/devcopied-base-node-types-sql"
+releaseID: d29a538c-53a6-4ebc-bacd-e073337604f0
+type: Package

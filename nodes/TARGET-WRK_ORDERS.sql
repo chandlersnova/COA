@@ -1,5 +1,5 @@
-@id("055ef52d-1ba7-4f88-abc3-4b21e5dc5d75")
-@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+@id("4e998d39-c641-4377-8b97-b5e13fa9cc21")
+@nodeType("SQLNodes:::707")
 SELECT
      "O_ORDERKEY" AS "O_ORDERKEY",
      "O_CUSTKEY" AS "O_CUSTKEY",

@@ -1,5 +1,5 @@
-@id("9a8154e0-8695-406f-87a3-2c32a59274a4")
-@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+@id("f65d3f09-2a22-457e-a64c-a0a95b9da455")
+@nodeType("SQLNodes:::707")
 SELECT
      "C_CUSTKEY" AS "C_CUSTKEY",
      "C_NAME" AS "C_NAME",

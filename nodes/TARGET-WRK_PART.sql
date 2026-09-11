@@ -1,5 +1,5 @@
-@id("41029c45-04d3-4ef1-a90d-5de26fd930c3")
-@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+@id("4abf6f30-24b7-4a9a-bae6-bfc36dd11dd7")
+@nodeType("SQLNodes:::707")
 SELECT
      "P_PARTKEY" AS "P_PARTKEY",
      "P_NAME" AS "P_NAME",

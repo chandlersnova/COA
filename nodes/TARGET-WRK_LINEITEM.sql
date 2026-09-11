@@ -1,5 +1,5 @@
-@id("b1f0bf51-18bf-4728-8fc6-f5b7b80c66ba")
-@nodeType("1c9353bd-990e-4876-b895-5f0aa885314c")
+@id("d1332d3a-a4cb-435a-bde0-6c2154b43ec3")
+@nodeType("SQLNodes:::707")
 SELECT
      "L_ORDERKEY" AS "L_ORDERKEY",
      "L_PARTKEY" AS "L_PARTKEY",
